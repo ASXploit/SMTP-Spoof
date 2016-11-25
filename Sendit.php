@@ -3,7 +3,7 @@
 
 /* --Sending Our Email-- */
 if(isset($_POST['subject']) && isset($_POST['message']) && isset($_POST['namespoof']) && isset($_POST['emailspoof'])) {
-	$DefaultEmail="linkhto@gmail.com";
+	$DefaultEmail="emailtosendto@mail.com";
 	$NameToSpoof=$_POST['namespoof'];
 	$EmailToSpoof=$_POST['emailspoof'];
 	$Subject=$_POST['subject'];
