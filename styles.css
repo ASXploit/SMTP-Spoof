@@ -1,0 +1,21 @@
+#container {
+ width: 600px;
+ background: #f1f1f1;
+ color: #889988;
+ border: 3px solid #f1f1f1;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ -ms-border-radius: 10px;
+ border-radius: 10px;
+ border-top: 3px solid #f1f1f1;
+ padding: 1em 2em;
+ margin: 0 auto;
+ -webkit-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.45);
+ -moz-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.45);
+ -ms-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.45);;
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.45);
+}
+.RoundedRect {
+	border-radius: 3px;
+	outline: none;
+}

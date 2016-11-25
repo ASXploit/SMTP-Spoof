@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Email Sender</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="container" >
+<form action="Sendit.php" method="post">
+  Subject:<br>
+  <input class="RoundedRect" type="text" name="subject" id="subject"><br>
+  Message:<br>
+  <input class="RoundedRect" type="text" name="message" id="message">
+  <br><br>
+  Name to Spoof:<br>
+  <input class="RoundedRect" type="text" name="namespoof" id="namespoof"><br>
+  Email to Spoof:<br>
+  <input class="RoundedRect" type="text" name="emailspoof" id="emailspoof">
+  <br>
+<input type="submit" name="sendMessage" id="sendMessage" value="Send" />
+</form>
+</div>
+</body>
+</html>
